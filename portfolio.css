@@ -1,0 +1,41 @@
+
+body
+{
+    background-color: #6e8abb;
+    background-image:url(http://res.cloudinary.com/seaofwhatremains/image/upload/v1467486461/mixed-bgimg7_ghbzlu.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    font-family:Ubuntu;
+}
+
+.jumbotron
+{
+    padding: 0.5em 0.6em;
+    color: white;
+}
+
+.row
+{
+    margin: 0% 15% 0% 15%;
+    background-color:white;
+}
+
+/* Usage: <div class="sexy_line"> </div> */
+.sexy_line
+{
+    margin: 25px 0;
+    height 1px;
+    background: black;
+    background: -webkit-gradient (linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+
+.showBorder
+{
+    border:1px solid silver;
+}
+
+.testHeight
+{
+    height:600px;
+}
