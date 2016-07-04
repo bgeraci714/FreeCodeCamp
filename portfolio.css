@@ -84,12 +84,6 @@ body
     padding-bottom:0%;
 }
 
-.showBorder
-{
-    padding:3px solid black;
-}
-
-
 
 /* Navbar CSS created using http://work.smarchal.com/twbscolor/*/
 .navbar-default {
@@ -97,7 +91,6 @@ body
   border:0px;
   border-radius:0px;
 
-}
 }
 .navbar-default .navbar-brand {
   color: #586e95;
