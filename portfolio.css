@@ -14,15 +14,42 @@ body
     color: white;
 }
 
+.vertical-center
+{
+        min-height: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+}
+
 .row
 {
     margin: 0% 15% 0% 15%;
-    /*background-color:white; */
+    padding-bottom: 5%;
+    background-color:white;
+}
+
+.sexy_line
+{
+    margin: 25px 20%;
+    height: 1px;
+    width: 60%;
+    background-color: white !important;
+
+}
+.sexy_line.white
+{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)) !important;
+}
+
+.sexy_line.black
+{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)) !important;
 }
 
 .showBorder
 {
-    border:3px solid black;
+    padding:3px solid black;
 }
 
 .testHeight
