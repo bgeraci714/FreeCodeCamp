@@ -1,204 +1,141 @@
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-
-          .bgimg {
-        background-image: none;
-    }
-
+@media max-width 480px{
+.bgimg {
+background-image:none;
+}
 }
 
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-      .bgimg {
-        background-image: none;
-    }
-
+@media min-width 992px and max-width 1199px{
+.bgimg {
+background-image:none;
+}
 }
 
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-
-          .bgimg {
-        background-image: none;
-    }
-
+@media min-width 768px and max-width 991px{
+.bgimg {
+background-image:none;
+}
 }
 
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-
-          .bgimg {
-        background-image: none;
-    }
-
+@media max-width 767px{
+.bgimg {
+background-image:none;
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-
-          .bgimg {
-        background-image: none;
-    }
-
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color:#586e95;
 }
 
-
-body
-{
-    background-color: #6e8abb;
-    background-image:url(http://res.cloudinary.com/seaofwhatremains/image/upload/v1467486461/mixed-bgimg7_ghbzlu.jpg);
-    background-repeat:no-repeat;
-    background-position:center;
-    font-family:Ubuntu;
-    color:#586E95;
-
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+color:#f7f7f7;
 }
 
-.jumbotron
-{
-    padding: 0.5em 0.6em;
-    color: white;
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+color:#f7f7f7;
+background-color:#000;
+}
 }
 
-.heading
-{
-    color:#586E95;
+body {
+background-color:#6e8abb;
+background-image:url(http://res.cloudinary.com/seaofwhatremains/image/upload/v1467486461/mixed-bgimg7_ghbzlu.jpg);
+background-repeat:no-repeat;
+background-position:center;
+font-family:Ubuntu;
+color:#586E95;
 }
 
-.thumbImg
-{
-    max-width: 250px;
-    max-height: 235px;
+.jumbotron {
+color:#FFF;
+padding:.5em .6em;
 }
 
-.vertical-center
-{
-        min-height: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
+.heading {
+color:#586E95;
 }
 
-.row
-{
-    margin: 0% 15% 0% 15%;
-    padding-bottom: 5%;
-    background-color:white;
-}
-.row.top
-{
-    padding-top:50px;
+.thumbImg {
+max-width:250px;
+max-height:235px;
 }
 
-.row.end
-{
-    padding-bottom:15%;
+.vertical-center {
+min-height:100vh;
+display:flex;
+align-items:center;
 }
 
-.sexy_line
-{
-    margin: 25px 20%;
-    height: 1px;
-    width: 60%;
-    background-color: white !important;
-
-}
-.sexy_line.white
-{
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)) !important;
+.row {
+padding-bottom:5%;
+background-color:#FFF;
+margin:0 15%;
 }
 
-.sexy_line.black
-{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)) !important;
+.row.top {
+padding-top:50px;
 }
 
-.sexy_line.blue
-{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(88, 110, 149, 0.75), rgba(0, 0, 0, 0)) !important;
+.row.end {
+padding-bottom:15%;
 }
 
-.glyphicon
-{
-    font-size:3em;
+.sexy_line {
+height:1px;
+width:60%;
+background-color:#FFF!important;
+margin:25px 20%;
 }
 
-.project
-{
-    padding-bottom:0%;
+.sexy_line.white {
+background:linear-gradient(toright,rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0))!important;
 }
 
+.sexy_line.black {
+background:linear-gradient(toright,rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0))!important;
+}
 
-/* Navbar CSS created using http://work.smarchal.com/twbscolor/*/
+.sexy_line.blue {
+background:linear-gradient(toright,rgba(0,0,0,0), rgba(88,110,149,0.75), rgba(0,0,0,0))!important;
+}
+
+.glyphicon {
+font-size:3em;
+}
+
+.project {
+padding-bottom:0;
+}
+
 .navbar-default {
-  background-color: #b4a4dc;
-  border:0px;
-  border-radius:0px;
+background-color:#b4a4dc;
+border:0;
+border-radius:0;
+}
 
-}
-.navbar-default .navbar-brand {
-  color: #586e95;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #f7f7f7;
-}
-.navbar-default .navbar-text {
-  color: #586e95;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #586e95;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #f7f7f7;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #f7f7f7;
-  background-color: #000000;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #f7f7f7;
-  background-color: #000000;
-}
 .navbar-default .navbar-toggle {
-  border-color: #000000;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #000000;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #586e95;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #586e95;
-}
-.navbar-default .navbar-link {
-  color: #586e95;
-}
-.navbar-default .navbar-link:hover {
-  color: #f7f7f7;
+border-color:#000;
 }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #586e95;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #f7f7f7;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #f7f7f7;
-    background-color: #000000;
-  }
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+background-color:#000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color:#586e95;
+}
+
+.navbar-default .navbar-collapse,.navbar-default .navbar-form {
+border-color:#586e95;
+}
+
+.navbar-default .navbar-brand,.navbar-default .navbar-text,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-link {
+color:#586e95;
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-link:hover {
+color:#f7f7f7;
+}
+
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > .open > a:hover,.navbar-default .navbar-nav > .open > a:focus {
+color:#f7f7f7;
+background-color:#000;
 }
